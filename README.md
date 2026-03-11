@@ -2,11 +2,13 @@
 
 A real-time virtual juggling experience using your webcam, MediaPipe hand tracking, and OpenCV.
 
+![Demo](demo.gif)
+
 ## How It Works
 
 The app captures your webcam feed and uses **MediaPipe** to track your hands in real time. A virtual ball obeys physics (gravity, bouncing, wall collisions). When your fingertip moves upward into the ball's proximity, it launches the ball as if you hit it. Keep it in the air as long as you can — each successful hit adds to your score.
 
-The frame is mirrored so it feels like looking in a mirror. Holding all five fingers extended (open palm) for ~2 seconds triggers a graceful exit.
+The frame is mirrored so it feels like looking in a mirror. Holding a peace sign ✌ for ~2 seconds triggers a graceful exit.
 
 ## Setup
 

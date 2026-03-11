@@ -1,6 +1,9 @@
 # Downloaded model (auto-fetched on first run)
 *.task
 
+# Original uncompressed animation
+Animation.gif
+
 # Python
 __pycache__/
 *.py[cod]
