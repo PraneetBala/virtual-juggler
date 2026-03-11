@@ -1,0 +1,14 @@
+# Downloaded model (auto-fetched on first run)
+*.task
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
