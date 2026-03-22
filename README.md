@@ -6,9 +6,9 @@ A real-time virtual juggling experience using your webcam, MediaPipe hand tracki
 
 ## How It Works
 
-The app captures your webcam feed and uses **MediaPipe** to track your hands in real time. A virtual ball obeys physics (gravity, bouncing, wall collisions). When your fingertip moves upward into the ball's proximity, it launches the ball as if you hit it. Keep it in the air as long as you can — each successful hit adds to your score.
+The app captures your webcam feed and uses **MediaPipe** to track your hands in real time. A virtual ball obeys physics (gravity, bouncing, wall collisions). When your fingertip moves upward into the ball's proximity, it launches the ball as if you hit it. Keep it in the air as long as you can; each successful hit adds to your score.
 
-The frame is mirrored so it feels like looking in a mirror. Holding a peace sign ✌ for ~2 seconds triggers a graceful exit.
+The frame is mirrored, so it feels like looking in a mirror. Holding a peace sign ✌ for ~2 seconds triggers a graceful exit.
 
 ## Setup
 
@@ -26,7 +26,7 @@ The frame is mirrored so it feels like looking in a mirror. Holding a peace sign
 python main.py
 ```
 
-A window titled **Virtual Juggler** will open showing your webcam feed with the virtual ball overlaid.
+A window titled **Virtual Juggler** will open, showing your webcam feed with the virtual ball overlaid.
 
 ## Controls
 
@@ -45,7 +45,7 @@ All tunable constants live in [config.py](config.py):
 |----------|---------|-------------|
 | `GRAVITY` | `0.5` | Downward acceleration (pixels/frame²) |
 | `BALL_RADIUS` | `20` | Ball size in pixels |
-| `BALL_COLOR` | `(0, 200, 255)` | Ball color (BGR — orange-ish) |
+| `BALL_COLOR` | `(0, 200, 255)` | Ball color (BGR: orange-ish) |
 | `BOUNCE_DAMPING` | `0.75` | Energy retained on bounce |
 | `HIT_DISTANCE` | `60` | Pixel radius to trigger a hit |
 | `HIT_VELOCITY` | `-18` | Upward velocity applied on hit |
