@@ -56,7 +56,7 @@ All tunable constants live in [config.py](config.py):
 
 ```
 virtual-juggler/
-├── main.py             # Entry point — main loop
+├── main.py             # Entry point: main loop
 ├── hand_tracker.py     # MediaPipe hand tracking
 ├── ball_physics.py     # Ball simulation (gravity, bounce, hit detection)
 ├── gesture_detector.py # Open-palm exit gesture recognition
